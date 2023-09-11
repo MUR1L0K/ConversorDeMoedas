@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="content">
+      <div>
+        <h1>Conversor de Moedas</h1>
+      </div>
+      <input type="number" id="coin" class="coin" placeholder="Valor" />
+      <br />
+      <div id="radios">
+        <label for="real">Real</label>
+        <input type="radio" name="type" id="real" value="real" checked />
+        <label for="dolar">Dolar</label>
+        <input type="radio" name="type" id="dolar" value="dolar" />
+        <label for="euro">Euro</label>
+        <input type="radio" name="type" id="euro" value="euro" />
+        <br />
+      </div>
+      <button id="button">Converter</button>
+      <p id="texto"></p>
+    </div>
+  </body>
+</html>
